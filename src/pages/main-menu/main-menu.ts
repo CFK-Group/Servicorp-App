@@ -1,14 +1,14 @@
 import { Component } from '@angular/core'
 import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular'
-import { InstalacionesDthPage } from "../formularios/instalaciones-dth/instalaciones-dth"
-import { InstalacionesHfcPage } from "../formularios/instalaciones-hfc/instalaciones-hfc"
-import { MantencionHfcPage } from "../formularios/mantencion-hfc/mantencion-hfc"
-import { MantencionDthPage } from "../formularios/mantencion-dth/mantencion-dth"
-import { InstalacionesDthEntelPage } from "../formularios/instalaciones-dth-entel/instalaciones-dth-entel"
-import { DesconexionPage } from "../formularios/desconexion/desconexion"
 import { LoginPage } from "../../pages/login/login"
-import { BafiEntelPage } from "../formularios/bafi-entel/bafi-entel"
-import { DuoEntelPage } from "../formularios/duo-entel/duo-entel"
+import { InstalacionesDthPage } from "../formularios/claro/instalaciones-dth/instalaciones-dth"
+import { InstalacionesHfcPage } from "../formularios/claro/instalaciones-hfc/instalaciones-hfc"
+import { MantencionHfcPage } from "../formularios/claro/mantencion-hfc/mantencion-hfc"
+import { MantencionDthPage } from "../formularios/claro/mantencion-dth/mantencion-dth"
+import { DesconexionPage } from "../formularios/claro/desconexion/desconexion"
+import { InstalacionesDthEntelPage } from "../formularios/entel/instalaciones-dth-entel/instalaciones-dth-entel"
+import { BafiEntelPage } from "../formularios/entel/bafi-entel/bafi-entel"
+import { DuoEntelPage } from "../formularios/entel/duo-entel/duo-entel"
 
 /**
  * Generated class for the CategoriasPage page.

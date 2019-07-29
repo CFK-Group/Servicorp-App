@@ -9,15 +9,22 @@ import { MyApp } from './app.component';
 import { MainMenuPage } from '../pages/main-menu/main-menu';
 import { LoginPage } from "../pages/login/login";
 import { ServicorpApiProvider } from '../providers/servicorp-api/servicorp-api';
-import { InstalacionesHfcPage } from '../pages/formularios/instalaciones-hfc/instalaciones-hfc';
-import { InstalacionesDthPage } from '../pages/formularios/instalaciones-dth/instalaciones-dth';
-import { MantencionDthPage } from '../pages/formularios/mantencion-dth/mantencion-dth';
-import { MantencionHfcPage } from '../pages/formularios/mantencion-hfc/mantencion-hfc';
-import { DesconexionPage } from '../pages/formularios/desconexion/desconexion';
-import { InstalacionesDthEntelPage } from '../pages/formularios/instalaciones-dth-entel/instalaciones-dth-entel';
-import { BafiEntelPage } from '../pages/formularios/bafi-entel/bafi-entel';
-import { DuoEntelPage } from '../pages/formularios/duo-entel/duo-entel';
+import { InstalacionesHfcPage } from '../pages/formularios/claro/instalaciones-hfc/instalaciones-hfc';
+import { InstalacionesDthPage } from '../pages/formularios/claro/instalaciones-dth/instalaciones-dth';
+import { MantencionDthPage } from '../pages/formularios/claro/mantencion-dth/mantencion-dth';
+import { MantencionHfcPage } from '../pages/formularios/claro/mantencion-hfc/mantencion-hfc';
+import { DesconexionPage } from '../pages/formularios/claro/desconexion/desconexion';
+import { InstalacionesDthEntelPage } from '../pages/formularios/entel/instalaciones-dth-entel/instalaciones-dth-entel';
+import { BafiEntelPage } from '../pages/formularios/entel/bafi-entel/bafi-entel';
+import { DuoEntelPage } from '../pages/formularios/entel/duo-entel/duo-entel';
 import { NoFormsComponent } from "../components/no-forms/no-forms";
+import { ModalInstalacionesDthPage } from '../pages/formularios/claro/instalaciones-dth/modal-instalaciones-dth/modal-instalaciones-dth';
+import { ModalInstalacionesHfcPage } from '../pages/formularios/claro/instalaciones-hfc/modal-instalaciones-hfc/modal-instalaciones-hfc';
+import { ModalMantencionDthPage } from '../pages/formularios/claro/mantencion-dth/modal-mantencion-dth/modal-mantencion-dth';
+import { ModalDesconexionPage } from '../pages/formularios/claro/desconexion/modal-desconexion/modal-desconexion';
+import { ModalBafiPage } from '../pages/formularios/entel/bafi-entel/modal-bafi/modal-bafi';
+import { ModalDuoPage } from '../pages/formularios/entel/duo-entel/modal-duo/modal-duo';
+import { ModalInstalacionesDthEntelPage } from '../pages/formularios/entel/instalaciones-dth-entel/modal-instalaciones-dth-entel/modal-instalaciones-dth-entel';
 
 @NgModule({
   declarations: [
@@ -32,7 +39,15 @@ import { NoFormsComponent } from "../components/no-forms/no-forms";
     InstalacionesDthEntelPage,
     BafiEntelPage,
     DuoEntelPage,
-    NoFormsComponent
+    NoFormsComponent,
+    ModalInstalacionesDthPage,
+    ModalInstalacionesHfcPage,
+    ModalMantencionDthPage,
+    ModalMantencionDthPage,
+    ModalDesconexionPage,
+    ModalBafiPage,
+    ModalDuoPage,
+    ModalInstalacionesDthEntelPage
   ],
   imports: [
     BrowserModule,
@@ -51,7 +66,15 @@ import { NoFormsComponent } from "../components/no-forms/no-forms";
     DesconexionPage,
     InstalacionesDthEntelPage,
     BafiEntelPage,
-    DuoEntelPage
+    DuoEntelPage,
+    ModalInstalacionesDthPage,
+    ModalInstalacionesHfcPage,
+    ModalMantencionDthPage,
+    ModalMantencionDthPage,
+    ModalDesconexionPage,
+    ModalBafiPage,
+    ModalDuoPage,
+    ModalInstalacionesDthEntelPage
   ],
   providers: [
     StatusBar,
