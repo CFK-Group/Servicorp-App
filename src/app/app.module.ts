@@ -25,6 +25,7 @@ import { ModalDesconexionPage } from '../pages/formularios/claro/desconexion/mod
 import { ModalBafiPage } from '../pages/formularios/entel/bafi-entel/modal-bafi/modal-bafi';
 import { ModalDuoPage } from '../pages/formularios/entel/duo-entel/modal-duo/modal-duo';
 import { ModalInstalacionesDthEntelPage } from '../pages/formularios/entel/instalaciones-dth-entel/modal-instalaciones-dth-entel/modal-instalaciones-dth-entel';
+import { FormDetailPage } from '../pages/formularios/form-detail/form-detail';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ModalInstalacionesDthEntelPage } from '../pages/formularios/entel/insta
     ModalDesconexionPage,
     ModalBafiPage,
     ModalDuoPage,
-    ModalInstalacionesDthEntelPage
+    ModalInstalacionesDthEntelPage,
+    FormDetailPage
   ],
   imports: [
     BrowserModule,
@@ -74,7 +76,8 @@ import { ModalInstalacionesDthEntelPage } from '../pages/formularios/entel/insta
     ModalDesconexionPage,
     ModalBafiPage,
     ModalDuoPage,
-    ModalInstalacionesDthEntelPage
+    ModalInstalacionesDthEntelPage,
+    FormDetailPage
   ],
   providers: [
     StatusBar,
