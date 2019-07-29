@@ -5,11 +5,30 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <ion-title>bafi-entel</ion-title>
+
+  <ion-navbar color="primary">
+    <ion-title>BAFI</ion-title>
   </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+
+  <ion-fab right bottom>
+    <button ion-fab color="primary" (click)="openModal()">
+      <ion-icon name="add"></ion-icon>
+    </button>
+  </ion-fab>
+  <ion-list *ngIf="formularios; else sinFormularios">
+    <ion-item color="primary">Formularios</ion-item>
+    <ion-item text-center *ngFor="let formulario of formularios" (click)="detail(formulario)">
+      <p>BAFI</p>
+      <p>{{formulario.create_time | date: 'medium'}}</p>
+    </ion-item>
+  </ion-list>
 
 </ion-content>
+
+<ng-template #sinFormularios>
+  <no-forms></no-forms>
+</ng-template>
