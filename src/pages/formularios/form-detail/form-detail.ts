@@ -17,7 +17,7 @@ import { FormBuilder, FormGroup } from "@angular/forms"
   templateUrl: 'form-detail.html',
 })
 export class FormDetailPage {
-
+/* 
   formulario = []
   imagenes = []
   preguntasIds = []
@@ -3865,5 +3865,5 @@ export class FormDetailPage {
   closeModal() {
     this.view.dismiss()
   }
-
+ */
 }
