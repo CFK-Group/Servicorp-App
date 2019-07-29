@@ -1,5 +1,7 @@
 {
   "name": "ServicorpApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

@@ -1,0 +1,70 @@
+<!--
+  Generated template for the MainMenuPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary" hideBackButton="true" class="toolbar statusbar-padding">
+    <div class="toolbar-background"></div>
+    <ion-buttons end class="bar-buttons">
+      <button icon-only ion-button class="bar-button bar-button-default disable-hover" (click)="logout()">
+        <span class="button-inner">
+          <ion-icon name="log-out"></ion-icon>
+        </span>
+        <div class="button-effect"></div>
+      </button>
+    </ion-buttons>
+    <div class="toolbar-content">
+      <ion-title class="title">
+        <div class="toolbar-title">Categorías</div>
+      </ion-title>
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding *ngIf="mostrarClaro">
+  <h4>Seleccione la categoría:</h4>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToInstalacionesHfc()">Certificación Instalaciones hfc</button>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToInstalacionesDth()">Certificación Instalaciones dth</button>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToMantencionHfc()">Certificación Mantención hfc</button>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToMantencionDth()">Certificación Mantención dth</button>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToDesconexion()">Certificación Desconexión</button>
+</ion-content>
+
+<ion-content padding *ngIf="mostrarEntel">
+  <h4>Seleccione la categoría:</h4>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToInstalacionesDthEntel()">Instalación dth</button>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToBafiEntel()">BAFI</button>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+  <button ion-button block (click)="goToDuoEntel()">DUO</button>
+  <ion-grid>
+    <ion-row></ion-row>
+  </ion-grid>
+</ion-content>
